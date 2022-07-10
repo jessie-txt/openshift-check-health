@@ -15,6 +15,7 @@ A tool for help Preventive Maintenance and gather information your OCP (OpenShif
 - Check List All Expired Certificate on OpenShift Cluster and create log information
 - Prune Unused /old/ build cache images on Every Node 
 
+Any gathered log information you can found on  _<current_dirrectory>/pm_log/
 
 ## License
 
