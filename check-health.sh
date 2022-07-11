@@ -141,7 +141,7 @@ read_options(){
        3) three ;;
        4) four ;;
        5) five ;;
-       6) quit 0;;
+       6) quit ;;
       
        *) echo -e "Error..." && WrongCommand;;
    esac
