@@ -1,5 +1,5 @@
 # Simple Bash App for OpenShift Container Platform 
-A tool for help Preventive Maintenance and gather information your OCP (OpenShift Container Platform) / OKD Cluster by _Reinhart Utama_
+A tool for help Preventive Maintenance and gather information your OCP (OpenShift Container Platform) / OKD Cluster by _Reinhart_
 
 
 
