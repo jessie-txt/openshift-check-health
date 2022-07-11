@@ -8,11 +8,11 @@ Author: Reinhart Utama
 
 ## Features
 
-* Check global Health Cluster (Readiness Node; Cluster Operator;  MCP; Cluster Version; Top Usage Nodes) and create log information
-* Check resource utilization on every node (CPU, memory, disk usage, block device, uptime)
-* Check expired certificate(s) on OpenShift-* namespace (only display)
-* Check and list any expired certificate(s) on the OpenShift Cluster and create log information
-* Prune unused /old/ build-cache images on every node
+* Check global Health Cluster (node readiness; cluster operator; MCP; cluster version; top usage of nodes) and create log information.
+* Check resource utilization on every node (CPU, memory, disk usage, block device, uptime; default user: core).
+* Check any expired certificate(s) on OpenShift-* namespace (only display).
+* Check and list any expired certificate(s) on the OpenShift cluster and create log information.
+* Prune unused /old/ build-cache images on every node.
 
 Any gathered log information can be found on  _<current_dirrectory>_/pm_log/
 
