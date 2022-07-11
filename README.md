@@ -1,21 +1,20 @@
-# Simple Bash App for OpenShift Container Platform 
-A tool for help Preventive Maintenance and gather information your OCP (OpenShift Container Platform) / OKD Cluster by _Reinhart_
+# OpenShift informations gathering tool
 
+A tool for gathering any information on your Openshift Cluster. Useful for Preventive Maintenance.
 
+Author: Reinhart Utama
 
 ![menu](static/1.jpg)
 
-
-
 ## Features
 
-- Check Global Health Cluster (Readiness Node; Cluster Operator;\n   MCP; Cluster Version; Top Usage Nodes) and Create log information 
-- Check Resource Utilization on Every Node  (CPU, Memory, Disk Usage,\n   Block Device , Uptime ; default user: core)
-- Check Expired Certificate on Namespace OpenShift-* (only display)
-- Check List All Expired Certificate on OpenShift Cluster and create log information
-- Prune Unused /old/ build cache images on Every Node 
+* Check global Health Cluster (Readiness Node; Cluster Operator;  MCP; Cluster Version; Top Usage Nodes) and create log information
+* Check resource utilization on every node (CPU, memory, disk usage, block device, uptime)
+* Check expired certificate(s) on OpenShift-* namespace (only display)
+* Check and list any expired certificate(s) on the OpenShift Cluster and create log information
+* Prune unused /old/ build-cache images on every node
 
-Any gathered log information you can found on  _<current_dirrectory>_/pm_log/
+Any gathered log information can be found on  _<current_dirrectory>_/pm_log/
 
 ## License
 
